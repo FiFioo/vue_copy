@@ -1,0 +1,142 @@
+{
+  "id": "1756474",
+  "name": "cloudMusic",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3404120",
+      "name": "音乐",
+      "font_class": "yinyuered",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4802562",
+      "name": "我的收藏",
+      "font_class": "wodeshoucang",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "10115604",
+      "name": "我的电台",
+      "font_class": "wodediantai",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "10115606",
+      "name": "最近播放",
+      "font_class": "zuijinbofang",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "290035",
+      "name": "闹钟",
+      "font_class": "clock",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "368559",
+      "name": "定时关闭",
+      "font_class": "dingshiguanbi",
+      "unicode": "e851",
+      "unicode_decimal": 59473
+    },
+    {
+      "icon_id": "666881",
+      "name": "亲子",
+      "font_class": "qinzi",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "1340693",
+      "name": "优惠券",
+      "font_class": "youhuiquan",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1809133",
+      "name": "皮肤",
+      "font_class": "pifu",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "2844558",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "4118093",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4677909",
+      "name": "汽车",
+      "font_class": "qiche",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "5833716",
+      "name": "在线电池",
+      "font_class": "sy-zxdc",
+      "unicode": "e7ac",
+      "unicode_decimal": 59308
+    },
+    {
+      "icon_id": "7444581",
+      "name": "会员中心",
+      "font_class": "huiyuanzhongxin",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "9092165",
+      "name": "夜间模式",
+      "font_class": "yejianmoshi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "10296829",
+      "name": "购物 车",
+      "font_class": "gouwuche",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10622485",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "13522984",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "14005437",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}
