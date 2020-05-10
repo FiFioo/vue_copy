@@ -23,8 +23,11 @@ import {
   DatetimePicker,
   Dialog,
   Field,
+  Grid,
+  GridItem,
   GoodsAction,
   Icon,
+  Image,
   ImagePreview,
   Info,
   Lazyload,
@@ -93,8 +96,11 @@ Vue.use(CouponList)
 Vue.use(DatetimePicker)
 Vue.use(Dialog)
 Vue.use(Field)
+Vue.use(Grid)
+Vue.use(GridItem)
 Vue.use(GoodsAction)
 Vue.use(Icon)
+Vue.use(Image)
 Vue.use(ImagePreview)
 Vue.use(Info)
 Vue.use(Lazyload)

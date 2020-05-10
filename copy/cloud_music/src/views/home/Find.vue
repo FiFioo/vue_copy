@@ -1,19 +1,23 @@
 <template>
     <div>
-        <p>发现</p>
+        <Banner />
+        <Nav />
+        <Playlist />
+        <NewSong />
     </div>
 </template>
 
 <script>
+import Banner from "@/components/Find/Banner";
+import Nav from "@/components/Find/Nav";
+import Playlist from "@/components/Find/Playlist";
+import NewSong from "@/components/Find/NewSong";
 export default {
-    methods: {
-        get_banner() {
-            this.$api.get_banner().then(
-                res => {
-                    console.log(res);
-                }
-            )
-        }
+    components: {
+        Banner,
+        Nav,
+        Playlist,
+        NewSong
     }
 }
 </script>

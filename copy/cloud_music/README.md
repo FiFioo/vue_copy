@@ -1,29 +1,16 @@
 # cloud_music
 
-## Project setup
+#### 预览
+
+![发现页面](./images/find_page.png)
+
+####  安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### 启动
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
