@@ -4,7 +4,7 @@
         :key="nav.index" 
         :icon="nav.icon" 
         :text="nav.text" 
-        :path="nav.path"
+        :to="nav.path"
         />
     </van-grid>
 </template>
@@ -15,7 +15,7 @@ export default {
         return {
             nav_data: [
                 { icon: "clock-o", text: "每日推荐", path: "#" },
-                { icon: "music-o", text: "歌单", path: "#" },
+                { icon: "music-o", text: "歌单", path: "/find/playlist" },
                 { icon: "diamond-o", text: "排行榜", path: "#" },
                 { icon: "service-o", text: "电台", path: "#" },
                 { icon: "smile-o", text: "私人FM", path: "#" }

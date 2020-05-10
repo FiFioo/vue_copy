@@ -10,8 +10,10 @@ const api_url = "http://47.102.197.151:3000/";
 //     1: android
 //     2: iphone
 //     3: ipad
-const banner_url = api_url + "banner?type=1?limit=5";
-const playlist_url = api_url + "top/playlist?limit=6";
+const banner_url = api_url + "banner?type=1";
+const playlist_url = api_url + "top/playlist";
+const playlist_catlist_url = api_url + "playlist/catlist";
+const playlist_detail_url = api_url + "playlist/detail";
 // type: 地区类型 id,对应以下:
     // 全部:0
     // 华语:7
@@ -23,10 +25,25 @@ export default {
     get_banner(){
         return axios.get(banner_url);
     },
-    get_playlist(){
-        return axios.get(playlist_url);
+    get_playlist(limit=5, cat="全部"){
+        return axios.get(playlist_url, {
+            params: {
+                limit,
+                cat
+            }
+        });
     },
     get_new_song(){
         return axios.get(new_song_url);
+    },
+    get_playlist_catlist(){
+        return axios.get(playlist_catlist_url);
+    },
+    get_playlist_detail(id){
+        return axios.get(playlist_detail_url, {
+            params: {
+                id
+            }
+        })
     }
 };

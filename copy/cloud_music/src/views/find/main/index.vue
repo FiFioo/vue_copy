@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import Banner from "@/components/Find/Banner";
-import Nav from "@/components/Find/Nav";
-import Playlist from "@/components/Find/Playlist";
-import NewSong from "@/components/Find/NewSong";
+import Banner from "./components/Banner";
+import Nav from "./components/Nav";
+import Playlist from "./components/Playlist";
+import NewSong from "./components/NewSong";
 export default {
     components: {
         Banner,
