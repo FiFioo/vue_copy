@@ -21,6 +21,7 @@ const playlist_detail_url = api_url + "playlist/detail";
     // 日本:8
     // 韩国:16
 const new_song_url = api_url + "top/song?type=8";
+const song_url = api_url + "song/url"
 export default {
     get_banner(){
         return axios.get(banner_url);
@@ -41,6 +42,13 @@ export default {
     },
     get_playlist_detail(id){
         return axios.get(playlist_detail_url, {
+            params: {
+                id
+            }
+        })
+    },
+    get_song(id){
+        return axios.get(song_url, {
             params: {
                 id
             }

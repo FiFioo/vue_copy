@@ -6,8 +6,8 @@
         </van-row>
         <van-grid :border="false" :column-num="3">
             <van-grid-item 
-            v-for="playlist in playlists" 
-            :key="playlist.index"
+            v-for="(playlist, index) in playlists" 
+            :key="index"
             class="vam-grid-item"
             >
                 <van-image :src="playlist.coverImgUrl" lazy-load />

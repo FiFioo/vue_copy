@@ -1,7 +1,7 @@
 <template>
     <van-grid :border="false" :column-num=5>
-        <van-grid-item v-for="nav in nav_data" 
-        :key="nav.index" 
+        <van-grid-item v-for="(nav, index) in nav_data" 
+        :key="index" 
         :icon="nav.icon" 
         :text="nav.text" 
         :to="nav.path"

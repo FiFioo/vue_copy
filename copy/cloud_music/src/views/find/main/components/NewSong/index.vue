@@ -2,7 +2,7 @@
     <div>
         <p>新歌:</p>
         <van-list>
-            <van-cell v-for="song in new_songs" :key="song.index">
+            <van-cell v-for="(song, index) in new_songs" :key="index">
                 <span >{{ song.name }}</span>
             </van-cell>
         </van-list>

@@ -1,11 +1,11 @@
 <template>
     <div>
         <van-tabs swipeable v-model="active_tab_name" @click="get_playlists" type="card">
-            <van-tab v-for="cat in catlist" :key="cat.index" :title="cat.name" :name="cat.name">
+            <van-tab v-for="(cat, index) in catlist" :key="index" :title="cat.name" :name="cat.name">
             </van-tab>
         </van-tabs>
         <van-grid :border="false" :column-num=3>
-            <van-grid-item v-for="playlist in playlists" :key="playlist.index" @click="show_detail(playlist.id)">
+            <van-grid-item v-for="(playlist, index) in playlists" :key="index" @click="show_detail(playlist.id)">
                 <van-image :src="playlist.coverImgUrl"></van-image>
                 <p class="van-multi-ellipsis--l2 description">{{ playlist.description }}</p>
             </van-grid-item>
