@@ -7,8 +7,8 @@
         <van-grid :border="false" :column-num="3">
             <van-grid-item 
             v-for="(playlist, index) in playlists" 
-            :key="index"
-            class="vam-grid-item"
+            :key="index" 
+            @click="show_detail(playlist.id)"
             >
                 <van-image :src="playlist.coverImgUrl" lazy-load />
                 <p class="description">{{ playlist.description }}</p>
@@ -31,6 +31,16 @@ export default {
                     this.playlists = res.data.playlists;
                 }
             )
+        },
+        show_detail(id){
+            this.$router.push({
+                name: "playlist_detail",
+                params: {
+                    id
+                }
+            }).catch( (err) => {
+                console.log(err);
+            } )
         }
     },
     created(){
@@ -58,6 +68,8 @@ export default {
     position: relative;
     font-size: 14px;
     color: #999;
+    overflow: hidden;
+    height: 100%;
 }
 
 .description {

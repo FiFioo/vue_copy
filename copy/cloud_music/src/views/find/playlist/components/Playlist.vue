@@ -59,6 +59,10 @@ export default {
 </script>
 
 <style scoped>
+.van-grid-item {
+    overflow: hidden;
+}
+
 .description {
     font-size: 14px;
     color: gray;

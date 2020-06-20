@@ -56,6 +56,7 @@ import {
   Step,
   Stepper,
   Steps,
+  Sticky,
   SubmitBar,
   Swipe,
   SwipeCell,
@@ -129,6 +130,7 @@ Vue.use(Slider)
 Vue.use(Step)
 Vue.use(Stepper)
 Vue.use(Steps)
+Vue.use(Sticky)
 Vue.use(SubmitBar)
 Vue.use(Swipe)
 Vue.use(SwipeCell)

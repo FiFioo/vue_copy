@@ -51,7 +51,8 @@ const routes = [
   {
     path: "detail",
     name: "playlist_detail",
-    component: () => import("@/views/find/playlist/Detail")
+    //component: () => import("@/views/find/playlist/Detail")
+    component: () => import("@/views/find/Detail")
   }
 ];
 

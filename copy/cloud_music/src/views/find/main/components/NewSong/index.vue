@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>新歌:</p>
+        <p style="background-color: lightblue;">新歌:</p>
         <van-list>
             <van-cell v-for="(song, index) in new_songs" :key="index">
                 <span >{{ song.name }}</span>
